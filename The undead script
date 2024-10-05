@@ -62,11 +62,11 @@ Section:NewButton("Mary", "ButtonInfo", function()
     
     game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Character"):FireServer(unpack(args))
 end)
-Section:NewButton("Siren", "ButtonInfo", function()
+Section:NewButton("Sybil", "ButtonInfo", function()
     print("Clicked")
     local args = {
         [1] = "Outfit1",
-        [2] = "Siren",
+        [2] = "Sybil",
         [3] = "Pc"
     }
     
