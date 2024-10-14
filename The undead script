@@ -82,3 +82,13 @@ Section:NewButton("Dark Josie", "ButtonInfo", function()
     
     game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Character"):FireServer(unpack(args))
 end)
+Section:NewButton("Qetsiyah", "ButtonInfo", function()
+    print("Clicked")
+    local args = {
+        [1] = "Outfit1",
+        [2] = "Qetsiyah",
+        [3] = "Pc"
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Character"):FireServer(unpack(args))
+end)
